@@ -12,7 +12,7 @@
 
 ## Description
 
-SecDocker is a Go application that acts as a firewall for Docker. It's designed to receive all the traffic that goes to the Docker API / socket and drop the requests that contains unauthorized parameters. You can provide rules and specifications as well as general restrictions to be applied to every request, modifying the traffic as it goes to the Docker daemon.
+SecDocker is a Go application that acts as a firewall for Docker. It's designed to receive all the traffic that goes to the Docker API / socket and drop the requests that contain unauthorized parameters. You can provide rules and specifications as well as general restrictions to be applied to every request, modifying the traffic as it goes to the Docker daemon.
 
 This application is meant to run transparently. In order to work, you must redirect the traffic to this tool without modifiying it. The easiest way to do this (specially in a test environment) is by using `iptables`.
 
