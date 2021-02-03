@@ -17,11 +17,7 @@ func main() {
 	defer file.Close()
 	log.SetOutput(file)
 
-	/// COMMAND LINE TOOL
-	//commandline.Start()
-
 	/// API SERVICE
 	tcpintercept.ServeConnection()
 
-	//httpserver.Start()
 }
