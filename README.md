@@ -1,3 +1,4 @@
+<p align="center">
 <div style="text-align: center">
 
 <img src="docs/SecDocker-logo.png" alt="SecDocker Logo" width="200"/>
@@ -5,6 +6,7 @@
 # SecDocker
 
 </div>
+</p>
 
 **An application firewall for Docker**
 
