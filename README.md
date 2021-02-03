@@ -120,6 +120,9 @@ The application is designed to be used in DevOps environments to provide a secur
 
 ![](docs/BlockDiagram.png)
 
+## Credits
+
+It was built at: https://seguridad.unileon.es/index.php/SecDocker
 
 ## Notes
 
