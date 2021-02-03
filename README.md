@@ -16,6 +16,12 @@ SecDocker is a Go application that acts as a firewall for Docker. It's designed 
 
 This application is meant to run transparently. In order to work, you must redirect the traffic to this tool without modifiying it. The easiest way to do this (specially in a test environment) is by using `iptables`.
 
+For example:
+
+`sudo iptables -A PREROUTING -t nat -i eth0 -p tcp --dport 2376 -j REDIRECT --to-port 8999`
+
+to redirect external traffic to SecDocker
+
 ![](docs/SecDocker.png)
 
 ## Config file
