@@ -1,0 +1,32 @@
+dockerapi: "http://localhost"
+
+restrictions:
+  ports:
+    - 8080
+    - 3000
+  mounts:
+    - /root
+  users:
+    - root
+  environment:
+    - USER=0
+  securitypolicies:
+    - privileged
+  privileged: true
+
+general:
+  memory: "1g"
+  cpu: 0.25
+  user: "1000"
+  secopts:
+    - "opt1"
+    - "opt2"
+  capdrop:
+    - "cap1"
+    - "cap2"
+  capadd:
+    - "cap3"
+    - "cap4"
+  environment:
+    - "MY_ENV=true"
+    - "MY_ENV2=1"

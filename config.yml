@@ -1,0 +1,27 @@
+plugins:
+
+dockerapi: "/var/run/docker.sock"
+
+restrictions:
+  ports:
+    - 22
+    - 25
+  mounts:
+    - /root
+    - /
+  users:
+    - root
+  environment:
+    - USER=0
+  securitypolicies:
+    - privileged
+  images:
+    - ubuntu:16.04
+  privileged: true
+
+general:
+  memory: "1g"
+  cpu: 0.25
+  user: "1000"
+  environment:
+    - "MY_ENV=true"

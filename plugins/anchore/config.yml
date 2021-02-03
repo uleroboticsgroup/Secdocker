@@ -1,0 +1,4 @@
+url: "http://localhost:8228"
+username: "admin"
+password: "foobar"
+amountvulns: 5
