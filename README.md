@@ -1,4 +1,4 @@
-[![Go Report Card](https://goreportcard.com/badge/github.com/uleroboticsgroup/Secdocker)](https://goreportcard.com/report/github.com/uleroboticsgroup/Secdocker) [![codecov](https://codecov.io/gh/uleroboticsgroup/Secdocker/branch/master/graph/badge.svg)](https://codecov.io/gh/uleroboticsgroup/Secdocker) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![godoc reference](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/github.com/uleroboticsgroup/Secdocker) [![Go Report Card](https://goreportcard.com/badge/github.com/uleroboticsgroup/Secdocker)](https://goreportcard.com/report/github.com/uleroboticsgroup/Secdocker) [![codecov](https://codecov.io/gh/uleroboticsgroup/Secdocker/branch/master/graph/badge.svg)](https://codecov.io/gh/uleroboticsgroup/Secdocker) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 <p align="center">
 <div style="text-align: center">
