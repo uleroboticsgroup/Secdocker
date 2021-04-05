@@ -5,7 +5,7 @@ import (
 	"os"
 	PluginProcesser "plugin"
 
-	"niebla.unileon.es/DavidFerng/secdocker/config"
+	"github.com/uleroboticsgroup/Secdocker/config"
 )
 
 func checkErr(err error) {

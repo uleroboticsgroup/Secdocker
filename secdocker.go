@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"niebla.unileon.es/DavidFerng/secdocker/tcpintercept"
+	"github.com/uleroboticsgroup/Secdocker/tcpintercept"
 
 	log "github.com/sirupsen/logrus"
 )

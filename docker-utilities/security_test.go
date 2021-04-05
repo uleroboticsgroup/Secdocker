@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	log "github.com/sirupsen/logrus"
-	"niebla.unileon.es/DavidFerng/secdocker/config"
-	"niebla.unileon.es/DavidFerng/secdocker/docker-utilities"
+	"github.com/uleroboticsgroup/Secdocker/config"
+	"github.com/uleroboticsgroup/Secdocker/docker-utilities"
 )
 
 func TestCheckIntersection(t *testing.T) {

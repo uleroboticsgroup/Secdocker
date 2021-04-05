@@ -37,7 +37,7 @@ Then, we set the gitlab connection we want to use and clone the repo. In our cas
         stage('SCM Checkout') {
             steps {
                 git([
-                    url: 'https://niebla.unileon.es/DavidFerng/secdocker.git',
+                    url: 'https://github.com/uleroboticsgroup/Secdocker.git',
                     credentialsId: 'jenkins-gitlab'
                 ])
             }

@@ -10,7 +10,7 @@ import (
 	"net/http"
 	"strings"
 
-	"niebla.unileon.es/DavidFerng/secdocker/httpserver"
+	"github.com/uleroboticsgroup/Secdocker/httpserver"
 )
 
 //Data is a thin wrapper that provides metadata that may be useful when mangling bytes on the network.

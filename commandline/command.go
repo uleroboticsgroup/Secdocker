@@ -7,9 +7,9 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"niebla.unileon.es/DavidFerng/secdocker/config"
-	"niebla.unileon.es/DavidFerng/secdocker/docker-utilities"
-	dockerutilities "niebla.unileon.es/DavidFerng/secdocker/docker-utilities"
+	"github.com/uleroboticsgroup/Secdocker/config"
+	"github.com/uleroboticsgroup/Secdocker/docker-utilities"
+	dockerutilities "github.com/uleroboticsgroup/Secdocker/docker-utilities"
 )
 
 type Flag string

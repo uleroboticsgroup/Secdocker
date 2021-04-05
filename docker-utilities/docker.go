@@ -6,8 +6,8 @@ import (
 	"strings"
 
 	log "github.com/sirupsen/logrus"
-	"niebla.unileon.es/DavidFerng/secdocker/config"
-	"niebla.unileon.es/DavidFerng/secdocker/plugins"
+	"github.com/uleroboticsgroup/Secdocker/config"
+	"github.com/uleroboticsgroup/Secdocker/plugins"
 )
 
 type ContainerOpts struct {

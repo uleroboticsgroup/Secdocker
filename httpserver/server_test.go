@@ -9,8 +9,8 @@ import (
 	"os"
 	"testing"
 
-	"niebla.unileon.es/DavidFerng/secdocker/config"
-	. "niebla.unileon.es/DavidFerng/secdocker/httpserver"
+	"github.com/uleroboticsgroup/Secdocker/config"
+	. "github.com/uleroboticsgroup/Secdocker/httpserver"
 )
 
 /*

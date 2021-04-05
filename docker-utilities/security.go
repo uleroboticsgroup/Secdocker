@@ -3,7 +3,7 @@ package docker
 import (
 	log "github.com/sirupsen/logrus"
 
-	"niebla.unileon.es/DavidFerng/secdocker/config"
+	"github.com/uleroboticsgroup/Secdocker/config"
 )
 
 func panicForbbiden(itemForbidden string, itemType string) {

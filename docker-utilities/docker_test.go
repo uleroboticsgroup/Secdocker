@@ -3,9 +3,9 @@ package docker_test
 import (
 	"testing"
 
-	. "niebla.unileon.es/DavidFerng/secdocker/docker-utilities"
+	. "github.com/uleroboticsgroup/Secdocker/docker-utilities"
 
-	"niebla.unileon.es/DavidFerng/secdocker/config"
+	"github.com/uleroboticsgroup/Secdocker/config"
 )
 
 func TestExecuteCommand(t *testing.T) {

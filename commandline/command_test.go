@@ -4,9 +4,9 @@ import (
 	"reflect"
 	"testing"
 
-	"niebla.unileon.es/DavidFerng/secdocker/commandline"
-	"niebla.unileon.es/DavidFerng/secdocker/config"
-	"niebla.unileon.es/DavidFerng/secdocker/docker-utilities"
+	"github.com/uleroboticsgroup/Secdocker/commandline"
+	"github.com/uleroboticsgroup/Secdocker/config"
+	"github.com/uleroboticsgroup/Secdocker/docker-utilities"
 )
 
 func indexesOfStringInSlice(target string, list []string) []int {

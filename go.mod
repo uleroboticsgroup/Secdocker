@@ -1,4 +1,4 @@
-module niebla.unileon.es/DavidFerng/secdocker
+module github.com/uleroboticsgroup/Secdocker
 
 go 1.13
 
@@ -9,6 +9,7 @@ require (
 	github.com/docker/go-connections v0.4.0
 	github.com/go-stack/stack v1.8.0 // indirect
 	github.com/golang/gddo v0.0.0-20190419222130-af0f2af80721
+	github.com/gorilla/websocket v1.4.2
 	github.com/inconshreveable/log15 v0.0.0-20200109203555-b30bc20e4fd1 // indirect
 	github.com/mattn/go-colorable v0.1.7 // indirect
 	github.com/sirupsen/logrus v1.4.1
